@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
-@FeignClient(value = "feignDeal", url = "http://localhost:8079/deal/")
+@FeignClient(value = "feignDeal", url = "http://deal:8079/deal/")
 public interface FeignConveyor {
 
 
